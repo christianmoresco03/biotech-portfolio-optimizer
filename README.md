@@ -2,6 +2,9 @@
 
 ### Biotech Pipeline Capital Allocation & Portfolio Optimization
 
+**Live App:** [Open BioPortfolio]
+https://biotech-portfolio-optimizer-gr3jtng3wr3kxfv39mwkwt.streamlit.app/
+
 BioPortfolio is an interactive decision-support prototype designed to help early-stage biotech companies structure capital-allocation decisions across multiple development programs.
 
 The project addresses a common strategic challenge in biotech: a company may have several promising assets in its pipeline, but limited capital to advance all of them simultaneously.
@@ -112,3 +115,23 @@ The objective is to help users interpret the recommended allocation rather than 
 
 The methodology section explains the scoring framework, investment hurdles, optimization logic and model limitations.
 
+---
+
+## Portfolio Logic
+
+```text
+Asset Inputs
+    ↓
+Asset-Level Metrics
+    ↓
+Priority Score
+    ↓
+Strategy Profile
+    ↓
+Optimization Score
+    ↓
+Investment Hurdle
+    ↓
+Portfolio Selection
+    ↓
+Fund / Conditional Fund / Deprioritize / Outside Horizon
